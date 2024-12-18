@@ -8,6 +8,7 @@ public class Empleado {
 	private boolean clubSocial;  //INDICA SI UN EMPLEADO ESTA EN EL CLUB SOCIAL DE LA EMPRESA
 	private float sueldo;
 	
+	
 	public Empleado(String dni, String nombre, String apellidos, String categoria, boolean clubSocial, float sueldo) {
 		super();
 		this.dni = dni;
@@ -17,6 +18,7 @@ public class Empleado {
 		this.clubSocial = clubSocial;
 		this.sueldo = sueldo;
 	}
+	
 }
 
 
